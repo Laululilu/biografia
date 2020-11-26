@@ -1,0 +1,24 @@
+header {
+    position: absolute;
+    top: 0;
+
+}
+/*
+nav {
+    padding: 0 2vw;
+}
+*/
+
+header a > img {
+    width: 5vw;
+    height: 5vw;
+}
+/*
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 1vh 0;
+}
+*/
+

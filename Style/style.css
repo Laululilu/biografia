@@ -1,0 +1,175 @@
+/* 
+Reglas de estilo
+    (que tienen estilo)
+
+    selector {
+        propiedad1: valor1;
+        propiedad2: valor2;
+        ...
+        propiedadN: valorN
+    }
+
+    #DFEDEA
+    */
+    /* 
+    ¿¿PROBAR PARA CENTRAR??
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    */
+
+    body {
+        background-color: #DFEDEA;
+    }
+
+/* TAG SELECTOR*/
+    a { 
+        text-decoration: none;
+    }
+/* CLASS SELECTOR*/
+.mimenu {
+    font-family: Roboto;
+    color: #4A4950
+}
+.mainfont {
+    font-family: DM Serif Display;
+}
+.secondaryfont {
+    font-family: Roboto;
+    color: #4A4950;
+}
+/* MENÚ NAVEGACIÓN */
+header {
+    width: 100%;
+}
+
+nav > ul > li {
+    display: inline-block;
+
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  }
+.flex-container li>a {
+   
+    margin: auto;
+    background-color: pink;
+    padding:20px 60px;
+    display: block;
+  
+}
+
+.logo {
+    width: 55px;
+    height: 55px;
+    padding: 0;
+    margin: auto;
+
+}
+
+.linkedin {
+    position: relative;
+    width: 38px;
+    height: 38px;
+  
+  }
+/*.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+}
+*/
+
+/* MAIN*/
+main {
+    width: 100%;
+}
+
+main > ul > li {
+    display: inline-block;
+
+}
+.arbol {
+   width: 100%;
+   display: block;
+   padding-right: 80%;
+   
+  }
+.flex-container2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  }
+  .flex-container2 li>a {
+   
+    margin: auto;
+    /*background-color: pink;*/
+    padding:20px 60px;
+    display: block;
+  
+}
+
+.workcajita1 {
+        width: 836px;
+        height: 323px;
+        padding: 40px 100px;
+        margin-bottom: 90px;
+        border-radius: 13px;
+        background-color: #f1c9ba;
+        width: 60%;
+      }
+.workcajita2 {
+        width: 836px;
+        height: 323px;
+        padding: 40px 100px;
+        margin-bottom: 90px;
+        
+        border-radius: 13px;
+        background-color: #c9d527;
+        width: 60%;
+      }
+.workcajita3 {
+        width: 836px;
+        height: 323px;
+        padding: 40px 100px;
+        margin-bottom: 90px;
+        border-radius: 13px;
+        background-color: #8ecbc7;
+        width: 60%;
+      }  
+/* FORMULARIO */
+
+.placeholder1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 30px 594px 30px 29px;
+    border-radius: 13px;
+    border-color: #f1c9ba;
+    background-color: #f1c9ba;
+}
+
+.placeholder2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 30px 594px 30px 29px;
+    border-radius: 13px;
+    border-color: #c9d527;
+    background-color: #c9d527;
+}
+
+.placeholder3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 30px 594px 101px 29px;
+    border-radius: 13px;
+    border-color: #8ecbc7;
+    background-color: #8ecbc7;
+}
+
+
+
+
+      
