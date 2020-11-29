@@ -33,34 +33,74 @@ Reglas de estilo
 }
 .mainfont {
     font-family: DM Serif Display;
+    font-size: 200%;
+}
+
+.mainfontS {
+    font-family: DM Serif Display;
+    font-size: 130%;
+    
 }
 .secondaryfont {
     font-family: Roboto;
     color: #4A4950;
 }
 /* MENÚ NAVEGACIÓN */
+
 header {
     width: 100%;
-}
-
-nav > ul > li {
-    display: inline-block;
-
+    padding-bottom: 5vw;
 }
 
 .flex-container {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
   }
-.flex-container li>a {
-   
-    margin: auto;
-    background-color: pink;
-    padding:20px 60px;
-    display: block;
-  
+
+nav ul.flex-container {
+    padding-left: 0;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+
+
+
+
+
+.abcd {
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-top: 5%;
+    text-align: left;
+
+}
+
+
+.fc-home {
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.fc-home > div {
+    width: 50%;
+    text-align: center;
+}
+
+.containerdiv {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.imgdivdiv {
+    width: 50%;
+    margin-left: 35%;
+    text-align: left;
+}
+
+.imgdivdiv > h1{
+   padding: 5%;
 }
 
 .logo {
@@ -94,26 +134,53 @@ main > ul > li {
     display: inline-block;
 
 }
+.mainfont h2 {
+    text-align: center;
+    margin: 40%;
+
+}
+.imgcajita {
+    width: 60%;
+    padding: 0;
+}
+
+.imgcajita2 {
+    width: 20%;
+    padding: 0;
+}
+
+.img-biog:hover {
+    transform: perspective(-10);
+  }
+
 .arbol {
-   width: 100%;
+   width: 20%;
    display: block;
-   padding-right: 80%;
+  
    
   }
+/*
 .flex-container2 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 
   }
-  .flex-container2 li>a {
+  
+.flex-container2 li>a {
    
     margin: auto;
-    /*background-color: pink;*/
+    background-color: pink;
     padding:20px 60px;
     display: block;
   
 }
+*/
+.container {
+    display: flex;
+
+  }
+
 
 .workcajita1 {
         width: 836px;
@@ -123,16 +190,19 @@ main > ul > li {
         border-radius: 13px;
         background-color: #f1c9ba;
         width: 60%;
-      }
+        display: flex;
+        box-shadow: 6px 7px 5px rgb(179, 177, 177);
+          }
 .workcajita2 {
         width: 836px;
         height: 323px;
         padding: 40px 100px;
         margin-bottom: 90px;
-        
         border-radius: 13px;
         background-color: #c9d527;
         width: 60%;
+        display: flex;
+        box-shadow: 6px 7px 5px rgb(179, 177, 177);
       }
 .workcajita3 {
         width: 836px;
@@ -140,9 +210,13 @@ main > ul > li {
         padding: 40px 100px;
         margin-bottom: 90px;
         border-radius: 13px;
-        background-color: #8ecbc7;
+        s
         width: 60%;
+        display: flex;
+        box-shadow: 6px 7px 5px rgb(179, 177, 177);
       }  
+
+
 /* FORMULARIO */
 
 .placeholder1 {
@@ -169,7 +243,24 @@ main > ul > li {
     background-color: #8ecbc7;
 }
 
+input {
+    display: flex;
+    width: 398px;
+    height: 84px;
+    border-radius: 13px;
+    border-color:  #368a9f;
+    background-color: #368a9f;
+    font-family: DM Serif Display;
+    font-size: 150%;
+    color: white; 
+}
 
+/* FOOTER */
+
+footer {
+    width: 100%;
+    padding-top: 5vw;
+}
 
 
       

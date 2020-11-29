@@ -1,0 +1,273 @@
+
+body {
+    background-color: #DFEDEA;
+}
+
+a { 
+    text-decoration: none;
+}
+
+h1 {
+    font-family: DM Serif Display;
+    font-size: 200%;
+}
+
+h2 {
+    font-family: DM Serif Display;
+    font-size: 170%;
+    margin-bottom: auto;
+}
+
+h3{
+    font-family: DM Serif Display;
+    font-size: 120%;
+    margin:0;
+}
+
+h4{
+    font-family: DM Serif Display;
+    font-size: 80%;
+}
+
+.textfont {
+    font-family: Roboto;
+    color: #727275;
+    font-size: 1.1em;
+    line-height : 35px;
+}
+.navfont {
+    font-family: Roboto;
+    color: #4A4950;
+    font-size: 1.1em;
+}
+
+
+.justify-text{
+    text-align: justify;
+}
+
+.flex-container {
+    display: flex;
+  }
+
+nav {
+  margin: 3% 6%;
+}
+
+nav ul.flex-container {
+    list-style: none;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 0%;
+    margin-block-start: 2em;
+    margin-block-end: 2em;   
+}
+
+footer ul.flex-container {
+    list-style: none;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 0%;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+a {
+    position: relative;
+}
+
+ul.ejm2 li a:after{
+    position: absolute;
+    bottom: 7px;
+    left: 10px;
+    width: 110%;
+    border-radius: 8px;
+    height: 5px;
+    background-color: #F1C9BA;
+    content: "";
+    opacity: 0;
+    transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
+    transform: translateY(20px);        
+}
+
+ul.ejm2 li a:hover:after{
+    opacity:1;
+    transform: translateY(15px)
+}
+
+.logo {
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    margin: auto;
+}
+/*
+.logo {
+    width: 65px;
+    height: 65px;
+    padding: 0;
+    margin: auto;
+}
+*/
+.linkedin {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  
+  }
+/*
+.linkedin {
+    position: relative;
+    width: 30px;
+    height: 30px;
+  
+  }
+*/
+
+/* MAIN*/
+
+.imglogo {
+    width: 80%;
+    padding: 0;
+    margin: auto;
+
+}
+
+.colum {
+    display:flex;
+    width: 100%;
+    padding: 0;
+    margin:auto;
+    justify-content: center;
+}
+
+.textcolum {
+    width: 80%;
+    padding: 0;
+    margin:auto;
+    justify-content: left; 
+}
+
+.work-box {
+    width: 85%;
+    height: 30%;
+    padding: 3%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: 50px;
+    border-radius: 13px;
+    box-shadow: 6px 7px 5px rgb(179, 177, 177);
+}
+
+.background-pink {
+    background-color: #f1c9ba;
+}
+
+.background-green {
+    background-color: #c9d527;
+}
+
+.background-blue {
+    background-color: #8ecbc7;
+}
+
+.background-white {
+    background-color: #ffffff;
+}
+
+.back-gradpink {
+    background: linear-gradient(338.83deg, #ffffff -3.41%,rgba(255,196,255,0) 52.31%),#f1c9ba;
+}
+
+.back-gradblue{
+    background: linear-gradient(338.83deg,#ffffff -3.41%,rgba(255,196,255,0) 52.31%),#8ecbc7;
+}
+
+.back-gradgreen{
+    background: linear-gradient(338.83deg, #ffffff -3.41%,rgba(255,196,255,0) 52.31%), #c9d527;
+}
+
+
+
+
+.work-img {
+    display: flex;
+    width: 80%;
+    height: 30%;
+    margin:auto;
+    padding: 1em;
+}
+
+.breath {
+    padding: 1em;
+}
+
+.placeholder-style {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    padding: 3%;
+    margin: 0;
+    justify-content: center;
+    border-radius: 13px;
+    border: 0px solid;
+    font-family: Roboto;
+    color: #868688;
+    font-size: 1em;
+    line-height : 35px
+}
+
+.pills-style {
+    display: flex;
+    width: 90%;
+    padding: 3%;
+    margin: auto;
+    justify-content: center;
+    border-radius: 13px;
+    border: 0px solid;
+    font-family: Roboto;
+    color: #868688;
+    font-size: 1em;
+    line-height : 35px
+}
+
+.submit-style {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto ;
+    margin-top: 1.5em;
+    margin-bottom: 5em ;
+    font-family: DM Serif Display;
+    color: white;
+    background-color: #368A9F;
+    height: 30%;
+    padding: 3%;
+    border: 0px solid;
+    border-radius: 13px;
+    box-shadow: 6px 7px 5px rgb(179, 177, 177);
+}
+
+
+
+
+.animation-rotate {
+    animation: rotate 3s infinite;
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    }
+    @keyframes rotate {
+    0%, 100% {
+    transform: rotate(10deg);
+    }
+    50% {
+    transform: rotate(-10deg);
+    }
+    }
