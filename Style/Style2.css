@@ -5,6 +5,7 @@ body {
 
 a { 
     text-decoration: none;
+    position: relative
 }
 
 h1 {
@@ -29,11 +30,55 @@ h4{
     font-size: 80%;
 }
 
+img{
+    max-width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+@media screen and (min-width: 500px) {
+    .flex-container {
+        flex-direction: row;
+    }
+
+}
+
+  .flex-container2 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+@media screen and (min-width: 500px) {
+    .flex-container2 {
+        flex-direction: row-reverse;
+    }
+
+}
+
+.flex-container.ejm2 {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+
+.justify-text{
+    text-align: justify;
+}
+
 .textfont {
     font-family: Roboto;
     color: #727275;
     font-size: 1.1em;
     line-height : 35px;
+}
+
+/* NAV&FOOT */
+
+nav {
+  margin: 3% 6%;
 }
 .navfont {
     font-family: Roboto;
@@ -41,18 +86,6 @@ h4{
     font-size: 1.1em;
 }
 
-
-.justify-text{
-    text-align: justify;
-}
-
-.flex-container {
-    display: flex;
-  }
-
-nav {
-  margin: 3% 6%;
-}
 
 nav ul.flex-container {
     list-style: none;
@@ -62,6 +95,7 @@ nav ul.flex-container {
     margin-block-start: 2em;
     margin-block-end: 2em;   
 }
+
 
 footer ul.flex-container {
     list-style: none;
@@ -101,35 +135,32 @@ ul.ejm2 li a:hover:after{
     padding: 0;
     margin: auto;
 }
-/*
-.logo {
-    width: 65px;
-    height: 65px;
-    padding: 0;
-    margin: auto;
-}
-*/
+
 .linkedin {
     position: relative;
     width: 20px;
     height: 20px;
   
   }
-/*
-.linkedin {
-    position: relative;
-    width: 30px;
-    height: 30px;
-  
-  }
-*/
+
+
 
 /* MAIN*/
 
 .imglogo {
+    display: flex;
     width: 80%;
     padding: 0;
     margin: auto;
+
+}
+
+@media screen and (min-width: 500px) {
+    .imglogo {
+        width: 50%;
+        margin-left: 30%;
+    
+    }
 
 }
 
@@ -148,8 +179,17 @@ ul.ejm2 li a:hover:after{
     justify-content: left; 
 }
 
+@media screen and (min-width: 500px) {
+    .media-pt1 {
+       width: 50%;
+       margin-right: 10%;
+    
+    }
+}
+
+
 .work-box {
-    width: 85%;
+    width: 75%;
     height: 30%;
     padding: 3%;
     margin-right: auto;
@@ -158,6 +198,13 @@ ul.ejm2 li a:hover:after{
     margin-bottom: 50px;
     border-radius: 13px;
     box-shadow: 6px 7px 5px rgb(179, 177, 177);
+}
+@media screen and (min-width: 500px) {
+    .work-box {
+       padding: 2%;
+    
+    }
+
 }
 
 .background-pink {
@@ -199,9 +246,28 @@ ul.ejm2 li a:hover:after{
     padding: 1em;
 }
 
+
+@media screen and (min-width: 500px) {
+    .work-img {
+        width: 35%;
+    
+    }
+
+}
+
 .breath {
     padding: 1em;
 }
+
+@media screen and (min-width: 500px) {
+    .textcolum.breath {
+        width: 75%;
+        padding-left: 0;
+    
+    }
+
+}
+
 
 .placeholder-style {
     display: flex;
@@ -213,23 +279,27 @@ ul.ejm2 li a:hover:after{
     border-radius: 13px;
     border: 0px solid;
     font-family: Roboto;
-    color: #868688;
-    font-size: 1em;
+    color: black;
+    font-size: 0.9em;
     line-height : 35px
+}
+
+.pills-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: 50px;
 }
 
 .pills-style {
     display: flex;
-    width: 90%;
-    padding: 3%;
+    width: 300px;
+    max-width: 100%;
+    padding: 20px;
     margin: auto;
-    justify-content: center;
-    border-radius: 13px;
-    border: 0px solid;
-    font-family: Roboto;
-    color: #868688;
-    font-size: 1em;
-    line-height : 35px
 }
 
 .submit-style {
@@ -249,7 +319,12 @@ ul.ejm2 li a:hover:after{
     box-shadow: 6px 7px 5px rgb(179, 177, 177);
 }
 
-
+@media screen and (min-width: 500px) {
+    .submit-style {
+        width: 25%;
+        font-size: 20px;
+    }
+}
 
 
 .animation-rotate {
@@ -271,3 +346,5 @@ ul.ejm2 li a:hover:after{
     transform: rotate(-10deg);
     }
     }
+
+
